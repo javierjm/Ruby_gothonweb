@@ -1,0 +1,11 @@
+
+<p>
+	I just wanted to say <em style="color: green; font-size: 2em;"><%= greeting %>, <%= name %></em>.
+	</br>
+	<% if filename %>
+		You have uploaded a picture named: <em style="color: green; font-size: 2em;"><%= filename %></em>.
+		<br/>
+		<img src="<%= path %>" alt="<%= filename %>"" height="42" width="42">
+	<% end %>
+
+</p>
